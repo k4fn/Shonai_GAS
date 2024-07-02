@@ -16,7 +16,7 @@ const tmpUrl = 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxx';
 const id = 'xxxxxxxxxxxxxxx';
 
 //部屋一覧
-const room = ['4203', '4302', '5405A', '5405B', '5505'];
+const room = ['4203', '4302', '5405A', '5405B', '5505', '防音室B', '防音室C'];
 
 //授業開始時間
 const startTime = ['9:20', '11:10', '12:50', '13:40', '15:30', '17:20', '19:10', '21:00'];

@@ -239,13 +239,6 @@ function A1Notation_to_start(A1Notation) {
   return start;
 }
 
-function A1Notation_to_start(A1Notation) {
-  const index = A1Notation.indexOf(':');
-  const a1 = A1Notation.substring(0, index);
-  const start = A1toCol(a1);
-  return start;
-}
-
 function A1Notation_to_end(A1Notation) {
   const index = A1Notation.indexOf(':');
   const a1 = A1Notation.substring(index + 1);

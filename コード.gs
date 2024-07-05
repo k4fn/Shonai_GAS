@@ -12,7 +12,7 @@ const newSSfileName = "学内集会願コピペ_";
 //学内集会願のテンプレのurl
 const tmpUrl = 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxx';
 
-//作成した学内集会願を保存したいフォルダーのid
+//作成した学内集会願を保存したいフォルダーのid　''の中を空にするとルートフォルダに保存されます
 const id = 'xxxxxxxxxxxxxxx';
 
 //部屋一覧
@@ -44,8 +44,10 @@ function myFunction() {
   Logger.log(newSS.getUrl());
 
   //設定した保存したいフォルダーに移動
-  const file = DriveApp.getFileById(newSS.getId());
-  file.moveTo(DriveApp.getFolderById(id));
+  if(id != ''){
+    const file = DriveApp.getFileById(newSS.getId());
+    file.moveTo(DriveApp.getFolderById(id));
+  }
 
   //テンプレを読み込む
   const tmpSheet = SpreadsheetApp.openByUrl(tmpUrl).getSheetByName('テンプレ');

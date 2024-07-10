@@ -70,11 +70,6 @@ function myFunction() {
     let copySheet = tmpSheet.copyTo(newSS);
     copySheet.setName(room[i] + '_1');
 
-    if(i == 0){
-      newSS.deleteSheet(newSS.getSheetByName('シート1'));
-    }
-
-
     for (let row = 2; row <= 32; row++) {//行に関して、x月1日(2行目)からx月31日(32行目)まで繰り返す
 
       //時間割の部分を取得

@@ -7,7 +7,7 @@ const sesshoUrl = 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxx';
 const circle = 'xxx部';
 
 //作成したい学内集会願の名前(月は後で追加されます)
-const newSSfileName = "学内集会願コピペ_";
+const newSSfileName = circle + "_学内集会願コピペ_";
 
 //学内集会願のテンプレのurl
 const tmpUrl = 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxx';

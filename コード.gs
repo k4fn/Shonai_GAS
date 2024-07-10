@@ -170,6 +170,7 @@ function myFunction() {
       newSS.deleteSheet(copySheet);
     }
   }
+  newSS.deleteSheet(newSS.getSheetByName('シート1'));
 
   //部員に知らせるようのやつ
   let scheduleStr = '';

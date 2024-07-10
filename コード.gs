@@ -172,7 +172,7 @@ function myFunction() {
       }
     }
     if (roomRow == 0) {
-      newSS.deleteSheet(newSS.getSheetByName(room[i]));
+      newSS.deleteSheet(copySheet);
     }
   }
 

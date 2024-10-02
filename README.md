@@ -3,6 +3,14 @@
 <img width="439" alt="image" src="https://github.com/k4fn/Shonai_GAS/assets/121530063/59597a90-e379-4ccb-a3db-556d06317318">
 <img width="180" alt="image" src="https://github.com/k4fn/Shonai_GAS/assets/121530063/3e4bbeea-9d6f-4cf6-9736-a04499c5f948">
 
+# Shonai_GASと[Shonai_GAS_v2](https://github.com/k4fn/Shonai_GAS_v2)の違い
+同じ日に同じ部屋を、時間を開けて取ったときの挙動が違います。  
+⬇Shonai_GAS  
+<img width="485" alt="cccccccccc" src="https://github.com/user-attachments/assets/669f0b07-605b-4760-b3b0-a3545cd94e37">  
+  
+⬇Shonai_GAS_v2  
+<img width="556" alt="aaaaaaaaaaaaaaaaaaaaaaaaaaaa" src="https://github.com/user-attachments/assets/5d052c0d-4337-4e94-acfb-6b58fd0644e4">
+
 # 使い方
 > [!CAUTION]
 > 自己責任でお願いします。提出前に間違いが無いか自分で確認してください。**特に年の変わる1月の学内集会願の曜日**
